@@ -1,4 +1,5 @@
 public class MainClass {
+// домашнее задание Java level 1 lesson 1 Алексей Мудюгин
     public static void main(String[] args) {
         byte a = 127;
         short b = 32767;
