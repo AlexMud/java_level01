@@ -1,6 +1,7 @@
 public class MainClass {
 // домашнее задание Java level 1 lesson 1 Алексей Мудюгин
     public static void main(String[] args) {
+// примитивные переменные - задание 2
         byte a = 127;
         short b = 32767;
         int c = 200000;
@@ -9,7 +10,7 @@ public class MainClass {
         double f = -200.400;
         char g = 65;
         boolean h = false;
-
+// вывод в консоль каждого пункта дз
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -25,11 +26,11 @@ public class MainClass {
         welcome("Alex");
         year(1945);
     }
-
+// задание 3
     public static int calculator(int a, int b, int c, int d) {
         return(a * (b + (c / d)));
     }
-
+// задание 4
     public static boolean sum(int a, int b) {
         a = -30;
         b = 40;
@@ -39,7 +40,7 @@ public class MainClass {
             return false;
         }
     }
-
+// задание 5
     public static void number(int x) {
         if(x >= 0) {
             System.out.println("x is positive");
@@ -47,7 +48,7 @@ public class MainClass {
             System.out.println("x is negative");
         }
     }
-
+// задание 6
     public static boolean negativeNumber(int x) {
         if (x < 0){
             return true;
@@ -55,11 +56,11 @@ public class MainClass {
             return false;
         }
     }
-
+// задание 7
     public static void welcome(String name) {
         System.out.println("Hello, " + name + "!");
     }
-
+// задание 8*
     public static void year(int y) {
         if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0) {
             System.out.println("The " + y + " is a leap year");
